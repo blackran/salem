@@ -1,0 +1,3 @@
+export const UPDATE_OPACITY1 = 'UPDATE_OPACITY1';
+export const UPDATE_OPACITY2 = 'UPDATE_OPACITY2';
+export const UPDATE_ID = 'UPDATE_ID';

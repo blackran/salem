@@ -1,0 +1,35 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.PaperLogin{
+	width: 400px;
+	margin: auto;
+	margin-top: 100px;
+	padding: 10px;
+	input{
+		width: 350px; 
+	}
+}
+.slideLogin {
+	animation: slidelogin 2s ease-in forwards;
+}
+@keyframes slidelogin {
+	0% {
+		transform: translateY(700px);
+		opacity: 0;
+	}
+	80% {
+		transform: translateY(0px);
+		opacity: 0.9;
+	}
+	90% {
+		transform: translateY(0px);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}

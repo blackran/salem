@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SalemApplication",
+            "request": "launch",
+            "mainClass": "com.salem.salem.SalemApplication",
+            "projectName": "salem"
+        }
+    ]
+}

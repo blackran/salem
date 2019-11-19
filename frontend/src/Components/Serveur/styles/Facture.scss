@@ -1,0 +1,30 @@
+*{
+    text-decoration: none;
+}
+.Facture{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
+    .pdf{
+        .header {
+            background-color: #d2d2d2;
+            display: flex;
+            margin: 10px 0;
+            width: 1000px;
+
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            span{
+                position: relative;
+                top: 4px;
+            }
+                
+        }
+        .body{
+            padding: 10px;
+
+        }
+    }
+}

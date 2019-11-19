@@ -1,0 +1,39 @@
+.HeaderPrincipal{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 130px 0 130px;
+  color: #349eb9;
+  h1{
+    font-family: FZXingKai-S04;
+    font-size: 30px;
+    color: #108cac;
+    position: relative;
+    bottom: 10px;
+  }
+  ul{
+    display: flex;
+    a li{
+      color: #349eb9;
+      &:hover{
+        color: #8fc7d6;
+      }
+    }
+  }
+  .navigation{
+    li{
+      margin-left: 10px;
+    }
+  }
+  .navigation2{
+    li{
+      border: 2px solid #8fc7d6;
+      padding: 3px 10px;
+      position: relative;
+      bottom: 10px;
+    }
+  }
+  .attach{
+    position: fixed;
+    width: 100%;
+  }
+}

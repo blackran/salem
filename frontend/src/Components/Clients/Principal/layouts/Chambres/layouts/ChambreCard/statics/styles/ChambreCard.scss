@@ -1,0 +1,11 @@
+.card {
+  flex-direction: column;
+  box-shadow: 0 0 2px #202020;
+  padding: 5px;
+  border-radius: 2px;
+
+  img {
+    width: 150px;
+    height: 100px;
+  }
+}

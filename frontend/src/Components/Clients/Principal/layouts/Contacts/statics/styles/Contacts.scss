@@ -1,0 +1,54 @@
+.Mocks{
+	height: 350px;
+	background-image: url('../images/contacts.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 10px 100px;
+	margin-top: 5px;
+	border-radius: 3px;
+	h1{
+		color: white;
+	}
+	.listContacts{
+		display: flex;
+		justify-content: space-around;
+		.listContactsItems{
+			margin: 100px 10px 0 10px;
+			display: flex;
+			img{
+				width: 80px;
+				height: 80px;
+			}
+			div{
+				background-color: rgba(255,255,255,0.3);
+				border-radius: 2px;
+				width: 145px;
+				padding: 10px;
+				svg{
+					color: rgba(255,255,255,0.3);
+					font-size: 50px;
+					position: relative;
+					left: -39.1px;
+				}
+				.containtes{
+					position: relative;
+					top: -30px;
+					h1{
+						margin-left: 10px;
+						font-size: 14px;
+						color: rgba(0,0,0,0.7);
+						font-weight: bold;
+						position: relative;
+						bottom: 10px;
+					}
+					p{
+						font-size: 11px;
+						color: rgba(0,0,0,0.5);
+					}
+				}
+			}
+		}
+	}
+}

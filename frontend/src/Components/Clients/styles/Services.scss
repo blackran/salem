@@ -1,0 +1,43 @@
+.Services {
+	padding-top: 20px;
+	height: 350px;
+	background-image: url("../images/hotel-bell1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-attachment: fixed;
+	// opacity: 0.8;
+	h1 {
+		text-align: center;
+	}
+
+	.listServices {
+		padding: 20px 200px 0;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+
+		div {
+			background-color: rgba(0,0,0,0.7);
+			color: white;
+			padding: 10px;
+			width: 200px;
+			height: 265px;
+			margin: 10px;
+
+			img {
+				width: 160px;
+				height: 160px;
+				margin-left: 10px;
+			}
+
+			h1 {
+				text-align: center;
+			}
+			p{
+				opacity: 0.7;
+			}
+		}
+	}
+}

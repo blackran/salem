@@ -1,0 +1,32 @@
+nav {
+	font-family: FZKai-Z03;
+	.MuiPaper-root {
+		background-color: #3b6e2c;
+	}
+
+	.navigation {
+		display: flex;
+		justify-content: space-around;
+		padding: 0 50px;
+		box-shadow: 0 3px 5px -1px rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.14), 0 1px 18px 0 rgba(0,0,0,0.12);
+		transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0;
+		border-radius: 4px;
+	}
+
+	div {
+		background: #3b6e2c;
+		padding: 10px;
+		width: 500px;
+		position: relative;
+		margin: auto;
+		top: -10px;
+		background-attachment: fixed;
+
+		a {
+			color: white;
+			text-decoration: none;
+			margin-left: 10px;
+			font-size: 23px;
+		}
+	}
+}

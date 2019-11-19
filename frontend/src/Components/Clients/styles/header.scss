@@ -1,0 +1,65 @@
+header {
+	background: linear-gradient(to bottom left,#fff, #85c570);
+
+	.flexImageTitleHeader {
+		display: flex;
+		justify-content: center;
+		img {
+			margin: 20px;
+			height: 100px;
+		}
+		// margin-bottom: 20px;
+
+		.headerTitle {
+			font-family: 'purisa';
+			color: #3b6e2c;
+			font-size: 50px;
+			position: relative;
+			top: 30px;
+			margin-left: 15%;
+		}
+
+		.animat {
+			transition: all 1s ease-out;
+		}
+
+	}
+	.myslide {
+		animation: slides 15s ease-in forwards;
+		animation-iteration-count: infinite;
+	}
+	@keyframes slides {
+		0% {
+			transform: translateY(-10px);
+		}
+		10% {
+			transform: translateX(10px);
+		}
+		20% {
+			transform: translateX(-10%);
+		}
+		40% {
+			transform: translateX(10%);
+		}
+		90% {
+			transform: scale(1.1);
+		}
+		100% {
+			transform: scale(1);
+		}
+	}
+	.myslide2 {
+		animation: slides2 2s ease-in forwards;
+	}
+	@keyframes slides2 {
+		0% {
+			transform: scale(0.7);
+		}
+		30% {
+			transform: scale(0.8)
+		}
+		100% {
+			transform: scale(1);
+		}
+	}
+}

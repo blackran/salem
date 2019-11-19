@@ -1,0 +1,25 @@
+.GResponsables{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 10px;
+  .AnnexGResponsables{
+    display: flex;
+    img{
+      width: 160px;
+      height: 160px;
+    }
+    .containtes{
+      margin-left: 10px;
+    }
+    input{
+      border-color: #fff;
+      background-color: #fff;
+      border-width: 0px;
+      border-bottom: 1px solid #202020;
+    }
+    input:disabled{
+      border-width: 0px;
+    }
+  }
+}

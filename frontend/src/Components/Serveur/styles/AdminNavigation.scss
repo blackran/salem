@@ -1,0 +1,29 @@
+.AdminNavigation{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  .logout{
+    color: #000;
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+    &:hover{
+      opacity: 0.7;
+    }
+  }
+  ul{
+    list-style: none;
+    position: relative;
+    top: 10px;
+    li{
+      text-decoration: none;
+      display: inline-block;
+      margin-left: 15px;
+      color: #202020;
+      &:hover{
+        opacity: 0.7;
+      }
+    }
+  }
+}

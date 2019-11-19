@@ -1,0 +1,29 @@
+footer {
+	//background-color: linear-gradient(to bottom left,#85c46f, #4a9331);
+	// background: linear-gradient(to bottom left,#a3d393, #0a1c03);
+	background-color: rgba(0,0,0,0.1);
+	height: 80px;
+	padding: 10px 10px;
+	display: flex;
+	justify-content: center;
+	padding-top: 15px;
+	text-align: center;
+	margin-top: 5px;
+	border-radius: 3px;
+	button {
+		position: relative;
+		bottom: 7px;
+	}
+	.line {
+		margin: auto;
+		margin-top: 10px;
+		margin-bottom: 3px;
+		background-color: #555555;
+		opacity: 0.7;
+		height: 1px;
+		width: 100px;
+	}
+	p{
+		opacity: 0.8;
+	}
+}
