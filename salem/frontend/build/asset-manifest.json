@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.04b60e07.chunk.css",
+    "main.js": "/static/js/main.72468a2d.chunk.js",
+    "main.js.map": "/static/js/main.72468a2d.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.04a57b98.js",
+    "runtime~main.js.map": "/static/js/runtime~main.04a57b98.js.map",
+    "static/js/2.a29dc060.chunk.js": "/static/js/2.a29dc060.chunk.js",
+    "static/js/2.a29dc060.chunk.js.map": "/static/js/2.a29dc060.chunk.js.map",
+    "static/css/3.1ebb41e1.chunk.css": "/static/css/3.1ebb41e1.chunk.css",
+    "static/js/3.aa781d94.chunk.js": "/static/js/3.aa781d94.chunk.js",
+    "static/js/3.aa781d94.chunk.js.map": "/static/js/3.aa781d94.chunk.js.map",
+    "static/css/4.06141f76.chunk.css": "/static/css/4.06141f76.chunk.css",
+    "static/js/4.057c3d16.chunk.js": "/static/js/4.057c3d16.chunk.js",
+    "static/js/4.057c3d16.chunk.js.map": "/static/js/4.057c3d16.chunk.js.map",
+    "static/js/5.0f03bd6b.chunk.js": "/static/js/5.0f03bd6b.chunk.js",
+    "static/js/5.0f03bd6b.chunk.js.map": "/static/js/5.0f03bd6b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.f2c76a7ee7c50aedc90f3683c689b3c8.js": "/precache-manifest.f2c76a7ee7c50aedc90f3683c689b3c8.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/3.1ebb41e1.chunk.css.map": "/static/css/3.1ebb41e1.chunk.css.map",
+    "static/css/4.06141f76.chunk.css.map": "/static/css/4.06141f76.chunk.css.map",
+    "static/css/main.04b60e07.chunk.css.map": "/static/css/main.04b60e07.chunk.css.map",
+    "static/media/Contacts.scss": "/static/media/contacts.1d68dcb5.jpg",
+    "static/media/Jumbontron.scss": "/static/media/salem-hotel-2.797c0eac.jpg",
+    "static/media/salem.jpg": "/static/media/salem.8f54e5f7.jpg"
+  }
+}
